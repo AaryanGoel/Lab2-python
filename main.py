@@ -14,7 +14,9 @@ def getLetterGrade(newGrade1):
     elif numGrade >= 80:
         lGrade = "B-"
     elif numGrade >= 77:
-        lGrade = "C"
+        lGrade = "C+"
+    elif numGrade >= 70:
+      lGrade = "C"
     elif numGrade >= 60:
         lGrade = "D"
     else:
